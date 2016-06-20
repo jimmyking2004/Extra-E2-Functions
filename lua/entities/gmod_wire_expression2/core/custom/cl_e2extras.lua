@@ -8,7 +8,9 @@ E2Helper.Descriptions["isRagdoll"] = "Is the entity a ragdoll? [Extra E2 Functio
 E2Helper.Descriptions["mapCreationID"] = "Gets the map creation ID of an entity, this ID wont change unless the map is edited. Returns -1 if the entity is not created by the map. [Extra E2 Functions]"
 E2Helper.Descriptions["removeDecals"] = "Removes all decals from the entity. (Crowbars are no longer a nuisance!) [Extra E2 Functions]"
 E2Helper.Descriptions["isPersistent"] = "Is the entity persistent? [Extra E2 Functions]"
-//E2Helper.Descriptions["setVelocity"] = "Sets the entities velocity. [Active but WIP] [Extra E2 Functions]" FIX IT GARRY
+E2Helper.Descriptions["setVel"] = "Sets the entities velocity. [Extra E2 Functions]"
+E2Helper.Descriptions["setLocalVel"] = "Sets the entities local velocity. [Extra E2 Functions]"
+E2Helper.Descriptions["setInstVel"] = "Sets the entities velocity instantaneously. [Extra E2 Functions]"
 E2Helper.Descriptions["waterLevel"] = "How deep is the entity in the water? 0 - Not in water. | 1 - Touching in water. | 2 - Half in water. | 3 - Fully under water. [Extra E2 Functions]"
 E2Helper.Descriptions["keepUpright"] = "Apply keep upright to the entity. Args: (BoneID, Strength) [Extra E2 Functions]"
 E2Helper.Descriptions["stress"] = "Gets the physical stress being applied on the entity. [Extra E2 Functions]"
@@ -31,4 +33,3 @@ E2Helper.Descriptions["killOwner"] = "Kills the owner of the E2. [Extra E2 Funct
 E2Helper.Descriptions["held"] = "Returns the last entity the player attempted to physgun. [Extra E2 Functions]"
 E2Helper.Descriptions["freezeOwner"] = "Freezes the owner preventing control such as WASD and mouse movement, removing the initial E2 that froze you will automatically unfreeze you if you get stuck. [Extra E2 Functions]"
 E2Helper.Descriptions["inGod"] = "Is the player in god mode? [Extra E2 Functions]"
-
