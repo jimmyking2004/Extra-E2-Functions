@@ -37,5 +37,5 @@ EEF converts most of the useful LUA functions into E2 functions.
 - `E:inGod() replaced by E:inGodMode()` - Functions the same, so it should be used instead if possible.
 - `E:getWeapons() replaced by E:weapons()` - Functions the same, so it should be used instead if possible.
 - `E:timeCreated() replaced by E:creationTime()` - Functions the same, so it should be used instead if possible.
-- `E:setVel() replaced by Propcore propSetVelocity()` - Close if not the same, so it should be used instead if possible.
-- `E:setInstVel() replaced by Propcore propSetVelocityInstant()` - Close if not the same, so it should be used instead if possible.
+- `E:setVel(V) replaced by Propcore E:propSetVelocity(V)` - Close if not the same, so it should be used instead if possible.
+- `E:setInstVel(V) replaced by Propcore E:propSetVelocityInstant(V)` - Close if not the same, so it should be used instead if possible.
