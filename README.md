@@ -34,8 +34,8 @@ EEF converts most of the useful LUA functions into E2 functions.
 - freezeOwner(N) - Freezes the owner preventing control, removing the initial E2 that froze you will automatically unfreeze you if you get stuck.
 
 # Deprecated
-- E:inGod() - Functions exactly the same as inGodMode(), so it should be used instead if possible.
-- E:getWeapons() - Functions exactly the same as weapons(), so it should be used instead if possible.
-- E:timeCreated() - Functions exactly the same as creationTime(), so it should be used instead if possible.
-- E:setVel() - Close if not the same as Propcore propSetVelocity(), so it should be used instead if possible.
-- E:setInstVel() - Close if not the same as Propcore propSetVelocityInstant(), so it should be used instead if possible.
+- `E:inGod() replaced by E:inGodMode()` - Functions the same, so it should be used instead if possible.
+- `E:getWeapons() replaced by E:weapons()` - Functions the same, so it should be used instead if possible.
+- `E:timeCreated() replaced by E:creationTime()` - Functions the same, so it should be used instead if possible.
+- `E:setVel() replaced by Propcore propSetVelocity()` - Close if not the same, so it should be used instead if possible.
+- `E:setInstVel() replaced by Propcore propSetVelocityInstant()` - Close if not the same, so it should be used instead if possible.
